@@ -29,7 +29,7 @@ if (!function_exists('grayscale_loadAssets')) {
     {
         wp_enqueue_style(
             'grayscale-styles',
-            get_theme_file_uri('css/style.css')
+            get_theme_file_uri('css/styles.css')
         );
 
         wp_enqueue_style(
