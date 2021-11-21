@@ -40,7 +40,7 @@ if (!function_exists('grayscale_loadAssets')) {
 
         wp_enqueue_script(
             'grayscale-scripts',
-            get_theme_file_uri('js/script.js'),
+            get_theme_file_uri('js/scripts.js'),
             [],
             '1.0.0',
             true
